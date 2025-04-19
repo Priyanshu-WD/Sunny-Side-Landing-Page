@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  --background-image-mob: url('../images/mobile/image-header.jpg');
+  --background-image-desk: url('../images/desktop/image-header.jpg');
+  --background-color-btn: hsl(51, 100%, 49%);
+  --padding-btn: 10px 30px 10px 30px;
+  --text-design: hsl(167, 40%, 24%);
+  --padding-nav-desk: 8px 8px 8px 8px;
+  --font-Barlow: "Barlow", sans-serif;
+  --font-Fraunces: "Fraunces", sans-serif;
+  --background-image-mob-stand_out: url('../images/mobile/image-stand-out.jpg');
+  --background-image-mob-transform: url('../images/mobile/image-transform.jpg');
+  --background-image-mob-photohraphy: url('../images/mobile/image-photography.jpg');
+  --background-image-mob-graphic_design: url('../images/mobile/image-graphic-design.jpg');
+  --background-image-mob-gallery_sugar: url('../images/mobile/image-gallery-sugar-cubes.jpg');
+  --background-image-mob-gallery_orange: url('../images/mobile/image-gallery-orange.jpg');
+  --background-image-mob-gallery_milkbottles: url('../images/mobile/image-gallery-milkbottles.jpg');
+  --background-image-mob-gallery_cone: url('../images/mobile/image-gallery-cone.jpg');
+  /*Desktop Images*/
+  --background-image-desk-transform: url('../images/desktop/image-transform.jpg');
+  --background-image-desk-stand_out: url('../images/desktop/image-stand-out.jpg');
+  --background-image-desk-photohraphy: url('../images/desktop/image-photography.jpg');
+  --background-image-desk-graphic_design: url('../images/desktop/image-graphic-design.jpg');
+  --background-image-desk-gallery_sugar: url('../images/desktop/image-gallery-sugarcubes.jpg');
+  --background-image-desk-gallery_orange: url('../images/desktop/image-gallery-orange.jpg');
+  --background-image-desk-gallery_milkbottles: url('../images/desktop/image-gallery-milkbottles.jpg');
+  --background-image-desk-gallery_cone: url('../images/desktop/image-gallery-cone.jpg');
+  /*Primary colors*/
+--color-Soft-red: hsl(7, 99%, 70%);
+--color-Yellow: hsl(51, 100%, 49%);
+--color-Dark-desaturated-cyan-graphicdesigntext: hsl(167, 40%, 24%);
+--color-Dark-blue-(photography-text): hsl(198, 62%, 26%);
+--color-Dark-moderate-cyan-footer: hsl(167, 44%, 70%); 
+/*Natural colors*/
+--color-Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+--color-Very-dark-grayish-blue: hsl(213, 9%, 39%);
+--color-Dark-grayish-blue: hsl(232, 10%, 55%);
+--color-Grayish-blue: hsl(210, 4%, 67%);
+--color-White: hsl(0, 0%, 100%);
+--margin-cus: -75px 0 0 -75px;
+--radius-50: 31.25rem;
+--tracking-more: 0.25rem;
+
+
+}
+
